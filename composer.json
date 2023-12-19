@@ -3,6 +3,7 @@
     "description": "Laravel client for Ping2.me",
     "type": "library",
     "license": "MIT",
+    "keywords": ["ping2me", "laravel", "ping2.me", "notification", "telegram"],
     "autoload": {
         "psr-4": {
             "Ping2Me\\Laravel\\": "src/",
