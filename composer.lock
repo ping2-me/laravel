@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc659089b86f3b3b14777961ab1a5e64",
+    "content-hash": "2bf4845315ce2307b2e73373672517c8",
     "packages": [
         {
             "name": "brick/math",
@@ -1952,16 +1952,16 @@
         },
         {
             "name": "ping2me/php",
-            "version": "v0.1.1",
+            "version": "v0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ping2-me/php.git",
-                "reference": "93dd6f4f8c25bc76656b770e71d9309f74f0668b"
+                "reference": "98e8494dbf31de356eca516d7803ff441386a9eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ping2-me/php/zipball/93dd6f4f8c25bc76656b770e71d9309f74f0668b",
-                "reference": "93dd6f4f8c25bc76656b770e71d9309f74f0668b",
+                "url": "https://api.github.com/repos/ping2-me/php/zipball/98e8494dbf31de356eca516d7803ff441386a9eb",
+                "reference": "98e8494dbf31de356eca516d7803ff441386a9eb",
                 "shasum": ""
             },
             "require": {
@@ -1990,9 +1990,9 @@
             "description": "Ping2me PHP client",
             "support": {
                 "issues": "https://github.com/ping2-me/php/issues",
-                "source": "https://github.com/ping2-me/php/tree/v0.1.1"
+                "source": "https://github.com/ping2-me/php/tree/v0.2"
             },
-            "time": "2023-12-17T19:27:21+00:00"
+            "time": "2023-12-19T11:09:09+00:00"
         },
         {
             "name": "psr/clock",
@@ -9333,7 +9333,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7|^8"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
