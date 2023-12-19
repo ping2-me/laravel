@@ -1,0 +1,18 @@
+{
+    "name": "ping2-me/laravel",
+    "description": "Laravel client for Ping2.me",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ping2Me\\Laravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bangnokia",
+            "email": "bangnokia@gmail.com"
+        }
+    ],
+    "require": {}
+}
