@@ -1,6 +1,6 @@
 # Ping2me Laravel package
 
-The Laravel package for the [ping2me](https://ping2me.com) API.
+The Laravel package for the [ping2.me](https://ping2.me).
 
 ## Installation
 
