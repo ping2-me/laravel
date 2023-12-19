@@ -11,4 +11,4 @@
 |
 */
 
-// uses(Tests\TestCase::class)->in('Feature');
+uses(Ping2Me\Laravel\Tests\TestCase::class)->in('./');
