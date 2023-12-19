@@ -1,5 +1,5 @@
 {
-    "name": "ping2-me/laravel",
+    "name": "ping2me/laravel",
     "description": "Laravel client for Ping2.me",
     "type": "library",
     "license": "MIT",
@@ -14,5 +14,16 @@
             "email": "bangnokia@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "ping2me/php": "^0.1.1",
+        "illuminate/contracts": "^10.37",
+        "illuminate/support": "^10.37"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ping2Me\\Laravel\\ServiceProvider"
+            ]
+        }
+    }
 }
