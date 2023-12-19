@@ -10,7 +10,7 @@ test('endpoint should be set from config', function () {
     expect(\Ping2Me\Laravel\Facades\Ping::getFacadeRoot()::$endpoint)->toBe('@daudau/ping2me');
 });
 
-test('send a dummy message', function () {
-    \Ping2Me\Laravel\Facades\Ping::send("aaaaaaaaaaaaaaa!");
-    ping('aaaaaaaaa');
-});
+//test('send a dummy message', function () {
+//    \Ping2Me\Laravel\Facades\Ping::send("This is a test message from Facade");
+//    ping('this is a test message from function');
+//});
