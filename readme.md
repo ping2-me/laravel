@@ -33,6 +33,8 @@ PING2ME_ENDPOINT=@daudau/ping2me
 ping('Hello world!');
 ```
 
+Then the message will be sent to you Telegram (or Discord, Slack) channel immediately.
+
 ## Performance
 Don't worry about performance, the package will send the request in the background if your server installed `curl` (which is almost exist in every server).
 So there will be almost zero delay about the http request.
